@@ -46,6 +46,24 @@
         color: black;">Operação</a>
             </div>
 
+             <div>
+
+                <a href="Pares/pares.php" style="
+        background-color: lightgray; 
+        padding: 20px; 
+        border-radius: 8px; 
+        text-decoration: none; 
+        color: black;">Pares</a>
+            </div>
+
+            <a href="Pares/pares.ph" style="
+        background-color: lightgray; 
+        padding: 20px; 
+        border-radius: 8px; 
+        text-decoration: none; 
+        color: black;">Tabuada</a>
+            </div>
+
         </div>
     </main>
 
