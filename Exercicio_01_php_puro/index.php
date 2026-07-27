@@ -10,60 +10,13 @@
 <body>
 
     <main class="container">
-
         <h1 style="text-align: center;">Escolha as operações</h1><br>
-
-        <div style="display: flex; flex-direction: row; gap: 20px; position: relative; top: 2vw; background-color: #f4f4f4;" class="container">
-
-            <div>
-                <a href="Dinheiro/dinheiro.php"
-
-                    style="background-color: lightgray; 
-        padding: 20px; 
-        border-radius: 8px; 
-        text-decoration: none; 
-        color: black;
-        
-        ">Dinheiro</a><br>
-            </div>
-
-            <div>
-                <a href="Idade/idade.php" style="
-        background-color: lightgray; 
-        padding: 20px; 
-        border-radius: 8px; 
-        text-decoration: none; 
-        color: black;">Idade </a>
-            </div>
-
-            <div>
-
-                <a href="Operacao/operacao.php" style="
-        background-color: lightgray; 
-        padding: 20px; 
-        border-radius: 8px; 
-        text-decoration: none; 
-        color: black;">Operação</a>
-            </div>
-
-             <div>
-
-                <a href="Pares/pares.php" style="
-        background-color: lightgray; 
-        padding: 20px; 
-        border-radius: 8px; 
-        text-decoration: none; 
-        color: black;">Pares</a>
-            </div>
-
-            <a href="Pares/pares.ph" style="
-        background-color: lightgray; 
-        padding: 20px; 
-        border-radius: 8px; 
-        text-decoration: none; 
-        color: black;">Tabuada</a>
-            </div>
-
+        <div>
+            <a href="Dinheiro/dinheiro.php">Dinheiro</a>
+            <a href="Operacao/operacao.php">Operação</a>
+            <a href="Pares/pares.php">Pares</a>
+            <a href="Tabuada/tabuada.php">Tabuada</a>
+            
         </div>
     </main>
 
@@ -85,12 +38,35 @@
         }
 
         .container {
-            max-width: 800px;
+            justify-content: center;
+            align-items: center;
+            max-width: 400px;
             margin: 60px auto;
             padding: 30px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+        }
+
+        div {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        a {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: black;
         }
     </style>
 
