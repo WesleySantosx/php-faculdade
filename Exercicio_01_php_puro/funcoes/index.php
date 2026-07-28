@@ -13,25 +13,24 @@
         <h1 style="text-align: center;">Exercicios Funções</h1><br>
         <div>
             <a href="funcao_name/name.php">Função com nome</a>
+            <a href="funcao_operacao/funcao.php">Função com operações</a>
         </div>
 
 
         <form method="post">
             <button type="submit" name="exibir_enunciado">Exibir enunciado dos exercicios</button>
         </form>
-        <div>
+        <div style="display: flex; flex-direction: column;">
             <?php
 
             if (isset($_POST['exibir_enunciado'])) {
                 echo "
-                            <h4>1 - Função nome</h4><br>
+                            <h4>1 - Função nome</h4>
                             <p>Crie uma função que receba um nome </p>
-                            <p>Resultado: Olá Carlos Johnson!</p><br>
-                            <h3></h3>
-                    
+                            <p>Resultado: Olá Carlos Johnson!</p>
                             
-                            <br><h4>2 - Tabuada</h4>
-                            <p> Exiba a tabuada dos números:4, 7 e 12.879,5</p>";
+                            <br><h4>2 - Função número </h4>
+                            <p>Crie uma função que receba dois números e retorne a soma, a subtração e uma frase incrível.</p>";
             }
             ?>
         </div>
@@ -57,13 +56,14 @@
         .container {
             justify-content: center;
             align-items: center;
-            max-width: 400px;
+            max-width: 600px;
             margin: 60px auto;
             padding: 30px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
             gap: 20px;
 
