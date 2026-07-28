@@ -27,13 +27,15 @@ if(isset($_POST['resultado'])) {
             
         <h1>Escolha o intervalo dos números, para exibir os pares entre eles</h1>
 
-        <form action="pares.php" method="POST">
+        <form method="POST">
             <input type="number" name="numero1" placeholder="Digite o primeiro número">
             <input type="number" name="numero2" placeholder="Digite o segundo número">
             <button type="submit" name="resultado">Exibir Pares</button>
         </form>
 
         <h2>Os números pares são: <?php echo $pares; ?></h2>
+
+
 
         </main>
 

@@ -15,7 +15,6 @@
             <a href="if_else/index.php">IF e ELSE</a>
             <a href="Loops/index.php">LOOPS</a>
             <a href="funcoes/index.php">FUNÇÕES</a>
-
         </div>
     </main>
 

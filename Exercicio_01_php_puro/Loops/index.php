@@ -15,6 +15,25 @@
             <a href="Pares/pares.php">Numeros pares</a>
             <a href="Tabuada/tabuada.php">Tabuada</a>
         </div>
+
+
+        <form method="post">
+            <button type="submit" name="exibir_enunciado">Exibir enunciado dos exercicios</button>
+        </form>
+        <div>
+            <?php
+
+            if (isset($_POST['exibir_enunciado'])) {
+                echo "
+                            <h4>1 - Numeros pares</h4><br>
+                            <p>Mostre somente Números pares entre dois numeros</p><br>
+                    
+                            
+                            <h4>2 - Tabuada</h4>
+                            <p> Exiba a tabuada dos números:4, 7 e 12.879,5</p>";
+            }
+            ?>
+        </div>
     </main>
 
     <style>

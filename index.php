@@ -23,8 +23,6 @@
 
             <ul>
                 <li><a href="Exercicio_01_php_puro/index.php">Atividade 01</a></li>
-                <li><a href="#">Exercício 02</a></li>
-                <li><a href="#">Exercício 03</a></li>
             </ul>
         </section>
     </main>

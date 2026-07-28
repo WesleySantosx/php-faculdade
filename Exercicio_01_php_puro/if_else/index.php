@@ -16,6 +16,29 @@
             <a href="Operacao/operacao.php">Operação</a>
             <a href="Idade/idade.php">Idade</a>
         </div>
+
+
+        <form method="post">
+            <button type="submit" name="exibir_enunciado">Exibir enunciado dos exercicios</button>
+        </form>
+        <div>
+            <?php
+
+            if (isset($_POST['exibir_enunciado'])) {
+                echo "
+                            <h4>1 - Crie uma variável idade, mostre:</h4><br>
+                            <p>Você é maior de idade, se a idade for maior ou igual a 18 anos.</p>
+                            <p>Você é menor de idade, se a idade for menor que 18 anos.</p>
+                            
+                            <h4>2 - Crie uma variavel dinheiro, exiba:</h4><br>
+                            <p>Pobre, Classe Média, Riquinho, Ricão, Elon Musk.</p>
+                            
+                            <h4>3 - Crie as variaveis numero1, numero2 e operação.</h4>
+                            <p>Faça a operação escolhida usando if ou switch</p>";
+            }
+            ?>
+
+        </div>
     </main>
 
     <style>
