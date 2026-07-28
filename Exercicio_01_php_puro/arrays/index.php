@@ -13,8 +13,8 @@
         <h1 style="text-align: center;">Exercicios Arrays</h1><br>
         <div>
             <a href="Memes/memes.php">Arrays Memes</a>
-            <a href="funcao_operacao/funcao.php">Arrays raças de papagaios</a>
-             <a href="funcao_operacao/funcao.php">Arrays associativo</a>
+            <a href="Papagaio/papagaio.php">Arrays raças de papagaios</a>
+             <a href="informações/array.php">Arrays associativo</a>
         </div>
 
 
