@@ -2,7 +2,7 @@
 
 Repositório criado para armazenar as atividades e exercícios desenvolvidos durante a disciplina de PHP na faculdade.
 
-O objetivo é praticar lógica de programação utilizando **PHP puro**, desenvolvendo os conceitos fundamentais da linguagem.
+O objetivo é praticar lógica de programação utilizando **PHP puro**, desenvolvendo os conceitos fundamentais da linguagem e futuramente usar frameworks.
 
 ## Conteúdo
 
@@ -15,11 +15,6 @@ O objetivo é praticar lógica de programação utilizando **PHP puro**, desenvo
 - Exercícios de lógica de programação
 
 > Novos exercícios serão adicionados conforme o andamento da disciplina.
-
-## Tecnologias
-
-- PHP
-- HTML
 
 ## Objetivo
 
