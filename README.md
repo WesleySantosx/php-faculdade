@@ -16,11 +16,6 @@ O objetivo é praticar lógica de programação utilizando **PHP puro**, desenvo
 
 > Novos exercícios serão adicionados conforme o andamento da disciplina.
 
-## Tecnologias
-
-- PHP
-- HTML
-
 ## Objetivo
 
 Registrar minha evolução no aprendizado de PHP e consolidar os conhecimentos adquiridos durante a graduação.
