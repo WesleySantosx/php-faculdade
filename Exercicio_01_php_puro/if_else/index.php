@@ -10,12 +10,11 @@
 <body>
 
     <main class="container">
-        <h1 style="text-align: center;">Escolha os exercícios</h1><br>
+        <h1 style="text-align: center;">Exercicios IF e ELSE</h1><br>
         <div>
-            <a href="if_else/index.php">IF e ELSE</a>
-            <a href="Loops/index.php">LOOPS</a>
-            <a href="funcoes/index.php">FUNÇÕES</a>
-
+            <a href="Dinheiro/dinheiro.php">Dinheiro</a>
+            <a href="Operacao/operacao.php">Operação</a>
+            <a href="Idade/idade.php">Idade</a>
         </div>
     </main>
 

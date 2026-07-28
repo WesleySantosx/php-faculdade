@@ -13,7 +13,7 @@ $exibirResultado = "";
 
 if (isset($_POST['resultado'])) {
     switch ($_POST['operacao']) {
-        case 2:
+        case 1:
             for ($i = 1; $i <= 10; $i++) {
                 $resultado = $numero1 * $i;
                 $exibirResultado .= "$numero1 x $i = $resultado <br>";
@@ -46,12 +46,12 @@ if (isset($_POST['resultado'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada  </title>
 </head>
 
 <body>

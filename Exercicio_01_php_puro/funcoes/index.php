@@ -10,12 +10,9 @@
 <body>
 
     <main class="container">
-        <h1 style="text-align: center;">Escolha os exercícios</h1><br>
+        <h1 style="text-align: center;">Exercicios Funções</h1><br>
         <div>
-            <a href="if_else/index.php">IF e ELSE</a>
-            <a href="Loops/index.php">LOOPS</a>
-            <a href="funcoes/index.php">FUNÇÕES</a>
-
+            <a href="funcao_name/name.php">Função com nome</a>
         </div>
     </main>
 
