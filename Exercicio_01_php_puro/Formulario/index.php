@@ -10,14 +10,12 @@
 <body>
 
     <main class="container">
-        <h1 style="text-align: center;">Escolha os exercícios</h1><br>
+        <h1 style="text-align: center;">Exercicios Formulario</h1><br>
         <div>
-            <a href="if_else/index.php">IF e ELSE</a>
-            <a href="Loops/index.php">LOOPS</a>
-            <a href="funcoes/index.php">FUNÇÕES</a>
-             <a href="arrays/index.php">ARRAYS</a>
-             <a href="Formulario/index.php">Formularios</a>
+            <a href="imc.php"> IMC</a>
+            <a href="calculadora.php">Calculadora</a>
         </div>
+
     </main>
 
     <style>
@@ -40,13 +38,14 @@
         .container {
             justify-content: center;
             align-items: center;
-            max-width: 400px;
+            max-width: 600px;
             margin: 60px auto;
             padding: 30px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
             gap: 20px;
 

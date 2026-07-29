@@ -1,24 +1,47 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php
 
+$peso = $_POST['peso'] ?? 0;
+$altura = $_POST['altura'] ?? 0;
+$resultado = "";
+
+if (isset($_POST['calcular'])) {
+
+    if ($peso > 0 && $altura > 0) {
+        $imc = $peso / ($altura * $altura);
+        $resultado = "Seu IMC é: " . number_format($imc, 2, ',', '.');
+    } else {
+        $resultado = "Preencha os campos corretamente.";
+    }
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logica de Programação em PHP</title>
+    <title>Calculadora de IMC</title>
 </head>
-
 <body>
 
-    <main class="container">
-        <h1 style="text-align: center;">Escolha os exercícios</h1><br>
-        <div>
-            <a href="if_else/index.php">IF e ELSE</a>
-            <a href="Loops/index.php">LOOPS</a>
-            <a href="funcoes/index.php">FUNÇÕES</a>
-             <a href="arrays/index.php">ARRAYS</a>
-             <a href="Formulario/index.php">Formularios</a>
-        </div>
-    </main>
+   <main class="container">
+
+    <h2>Calculadora de IMC</h2>
+
+    <form method="post">
+        <label>Peso (kg):</label><br>
+        <input type="number" name="peso" step="0.01" required><br><br>
+
+        <label>Altura (m):</label><br>
+        <input type="number" name="altura" step="0.01" required><br><br>
+
+        <input type="submit" name="calcular" value="Calcular">
+    </form>
+
+    <h3><?php echo $resultado; ?></h3>
+
+   </main>
+
 
     <style>
         * {
@@ -40,15 +63,16 @@
         .container {
             justify-content: center;
             align-items: center;
-            max-width: 400px;
+            max-width: 600px;
             margin: 60px auto;
             padding: 30px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 10px;
 
         }
 
@@ -71,5 +95,4 @@
     </style>
 
 </body>
-
 </html>
